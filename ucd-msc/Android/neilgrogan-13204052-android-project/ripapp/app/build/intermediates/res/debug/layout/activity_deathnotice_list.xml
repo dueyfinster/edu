@@ -1,0 +1,8 @@
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/deathnotice_list"
+    android:name="ie.ucd.cs.neilgrogan13204052.deathnotices.notices.DeathNoticeListFragment"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:layout_marginLeft="16dp" android:layout_marginRight="16dp"
+    tools:context="ie.ucd.cs.neilgrogan13204052.deathnotices.notices.DeathNoticeListActivity"
+    tools:layout="@android:layout/list_content" />
+<!-- From: file:/Users/ngrogan/Dropbox/dev/ucd/android/project/ripapp/app/src/main/res/layout/activity_deathnotice_list.xml -->

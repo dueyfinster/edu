@@ -1,0 +1,4 @@
+It was a very dark and stormy night when I began work on the most 
+important program of my life. I was nervous. Would I succeed in writing 
+elegant and clear Java? Or would I write code that was full of grammatical 
+and runtime errors?

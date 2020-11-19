@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LetterBook</string>
+    <string name="next">Next</string>
+    <string name="prev">Previous</string>
+    <string name="menu">Menu</string>
+    <string name="fruit_big_label">Caps</string>
+    <string name="fruit_label">Fruit</string>
+    <string name="apple">Apple</string>
+    <string name="banana">Banana</string>
+    <string name="orange">Orange</string>
+    <string name="pear">Pear</string>
+</resources>

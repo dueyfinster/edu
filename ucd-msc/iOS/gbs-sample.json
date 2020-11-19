@@ -1,0 +1,24 @@
+{
+    "Customer": {
+        "Name": "Neil Grogan",
+        "Address": {
+            "Street": "12 The Glebe",
+            "Town": "Athlone",
+            "County": "Westmeath"
+        },
+        "Phone": 0873791474,
+        "Email": "neil@grogan.ie",
+        "Services" : [
+            {
+                "Date": "10/03/14",
+                "O2" : "100%",
+                "Efficiency" : "69%"
+            },
+            {
+                "Date": "10/03/12",
+                "O2" : "90%",
+                "Efficiency" : "39%"
+            }
+        ]
+	}
+}

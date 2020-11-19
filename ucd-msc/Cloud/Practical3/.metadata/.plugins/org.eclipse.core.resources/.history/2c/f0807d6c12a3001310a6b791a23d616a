@@ -1,0 +1,26 @@
+package matrices;
+
+import java.util.Scanner;
+
+public class ProductOfMatrices {
+
+	private Matrix createMatrix(){
+		 Scanner in = new Scanner(System.in);
+		 System.out.println("Enter rows for matrix: ");
+	      int m = in.nextInt();
+	      System.out.println("Enter columns for matrix: ");
+	      int n = in.nextInt();
+	      
+	      return new Matrix(m,n);
+	}
+	
+	public static void main(String[] args) {
+		Matrix m = createMatrix();
+		m.setPoint(0, 0, 1);
+		m.setPoint(0, 1, 1);
+		m.setPoint(1, 0, 2);
+		m.setPoint(1, 1, 3);
+		
+		m.toString();
+	}
+}

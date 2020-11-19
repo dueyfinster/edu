@@ -1,0 +1,50 @@
+package matrices;
+
+public class DissimilarityMatrices {
+	
+	private static Matrix calculateEuclideanDistance(Matrix m) {
+		int sum=0;
+		
+		
+		for(int y=0; y<m.getNoOfRows(); y++){
+			for(int i=0; i<=m.getNoOfColumns(); i++){
+				System.out.println("pos:"+i+","+ y);
+				int t1 = m.getPoint(y, 0) - m.getPoint(i, 0);
+				int t2 = m.getPoint(y, 1) - m.getPoint(i, 1);
+				
+				double pow = Math.pow(t1, 2) + Math.pow(t2, 2);
+		
+				double calcResult = Math.sqrt(pow);
+			         
+				System.out.println(calcResult);
+			}
+		}
+		
+		return null;
+	}
+
+	public static void main(String[] args) {
+		//Matrix m = MatrixUtils.createMatrix();
+		//MatrixUtils.setMatrixPoints(m);
+		
+		Matrix m = new Matrix(3, 2);
+		m.setPoint(0, 0, 5);
+		m.setPoint(0, 1, 3);
+		
+		m.setPoint(1, 0, 2);
+		m.setPoint(1, 1, 6);
+		
+		m.setPoint(2, 0, 4);
+		m.setPoint(2, 1, 1);
+		
+		
+		Matrix r = calculateEuclideanDistance(m);
+		
+		//System.out.println("Result is: ");
+		//r.toString();
+
+	}
+
+
+
+}

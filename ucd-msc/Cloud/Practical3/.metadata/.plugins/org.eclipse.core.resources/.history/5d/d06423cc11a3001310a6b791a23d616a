@@ -1,0 +1,26 @@
+package matrices;
+
+import java.util.Arrays;
+
+public class Matrix {
+	private Integer[][] matrix;
+	
+	public Matrix(int a, int b){
+		matrix = new Integer[a][b];
+	}
+
+	public void setPoint(int a,int b, int c){
+		matrix[a][b] = c;
+	}
+	
+	public int getPoint(int a, int b){
+		return matrix[a][b];
+	}
+	
+	public String toString(){
+		for (Integer[] current : matrix) {
+            System.out.println(Arrays.toString(current));
+        }
+		return null;
+	}
+}

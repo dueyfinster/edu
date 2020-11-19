@@ -1,0 +1,63 @@
+package matrices;
+
+import java.util.Scanner;
+
+public class ProductOfMatrices {
+
+	private static Matrix createMatrix(){
+		 Scanner in = new Scanner(System.in);
+		 System.out.println("Enter rows for matrix: ");
+	     int m = in.nextInt();
+	     System.out.println("Enter columns for matrix: ");
+	     int n = in.nextInt();
+	      
+	     return new Matrix(m,n);
+	}
+	
+	private static void setMatrixPoints(Matrix m){
+		Scanner in = new Scanner(System.in);
+		for(int i=0; i<m.getNoOfRows(); i++){
+			for(int j=0; j<m.getNoOfColumns(); j++){
+				 System.out.println("Enter value for ["+i+"]["+j+"] in the matrix: ");
+				 m.setPoint(i, j, in.nextInt());
+			}
+		}
+	}
+	
+	private static Matrix multiplyMatrices(Matrix m, Matrix n) {
+		if ( m.getNoOfRows() != n.getNoOfColumns() ){
+	         System.out.println("Can't multiply these matrices with each other. Must have equal # of points for successful multiplication.");
+	         return null;
+		}
+		int sum =0;
+		Matrix result = new Matrix(m.getNoOfRows(), n.getNoOfColumns());
+		
+		for (int c = 0 ; c < m.getNoOfRows() ; c++ ){
+           for (int d = 0 ; d < n.getNoOfColumns() ; d++ ){   
+              for (int k = 0 ; k < n.getNoOfRows() ; k++ ){
+            	  
+            	  sum = sum + m.getPoint(c, k)*m.getPoint(k, d);
+              }
+              result.setPoint(c, d, sum);
+              sum = 0;
+           }
+        }
+		
+		return null;
+	}
+	
+	public static void main(String[] args) {
+		Matrix m = createMatrix();
+		setMatrixPoints(m);
+		
+		Matrix n = createMatrix();
+		setMatrixPoints(n);
+		
+		Matrix r = multiplyMatrices(m,n);
+		
+		r.toString();
+		
+	}
+
+
+}

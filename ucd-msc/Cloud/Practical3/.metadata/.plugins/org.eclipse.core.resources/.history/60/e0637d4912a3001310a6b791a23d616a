@@ -1,0 +1,15 @@
+package matrices;
+
+public class ProductOfMatrices {
+
+	
+	public static void main(String[] args) {
+		Matrix m = new Matrix(2,2);
+		m.setPoint(0, 0, 1);
+		m.setPoint(0, 1, 1);
+		m.setPoint(1, 0, 2);
+		m.setPoint(1, 1, 3);
+		
+		m.toString();
+	}
+}

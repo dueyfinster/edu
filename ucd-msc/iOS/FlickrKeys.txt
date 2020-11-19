@@ -1,0 +1,7 @@
+ 	FlickrBrowser
+
+Key:
+c35810241787bc5c45786d03ada5b4d3
+
+Secret:
+4a62c4ad4ffefa7b 

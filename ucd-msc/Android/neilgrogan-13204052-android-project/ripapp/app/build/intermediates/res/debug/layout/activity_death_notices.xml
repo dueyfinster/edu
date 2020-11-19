@@ -1,0 +1,6 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/container"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    tools:context="ie.ucd.cs.neilgrogan13204052.deathnotices.DeathNotices"
+    tools:ignore="MergeRootFrame" />
+<!-- From: file:/Users/ngrogan/Dropbox/dev/ucd/android/project/ripapp/app/src/main/res/layout/activity_death_notices.xml -->

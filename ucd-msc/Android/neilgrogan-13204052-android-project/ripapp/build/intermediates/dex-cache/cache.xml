@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/ngrogan/Dropbox/dev/ucd/android/project/ripapp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3c0b099f9de16b265ecd6122fcb603e7d0d29f90">
+        <dex dex="/Users/ngrogan/Dropbox/dev/ucd/android/project/ripapp/app/build/intermediates/pre-dexed/debug/classes-4834a6321f44670d54f265ded12c6404eb73b54a.jar" />
+    </item>
+    <item
+        jar="/Users/ngrogan/Dropbox/dev/ucd/android/project/ripapp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0e8228b4bc69c6a2c8d7c18498a77e53417d2574">
+        <dex dex="/Users/ngrogan/Dropbox/dev/ucd/android/project/ripapp/app/build/intermediates/pre-dexed/debug/classes-16000cf58db59e65c488853b558e35880d4e97b4.jar" />
+    </item>
+    <item
+        jar="/Users/ngrogan/Dropbox/dev/ucd/android/project/ripapp/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/Users/ngrogan/Dropbox/dev/ucd/android/project/ripapp/app/build/intermediates/pre-dexed/debug/classes-b3d86f387f6b45340cc0c17b3efcd8c7b59ab6bd.jar" />
+    </item>
+    <item
+        jar="/Users/ngrogan/Dropbox/dev/ucd/android/project/ripapp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7ff613bf78ab057293892fdbd4169eda899c89b9">
+        <dex dex="/Users/ngrogan/Dropbox/dev/ucd/android/project/ripapp/app/build/intermediates/pre-dexed/debug/classes-ddea8403902cfebb7854ebd4b17903f3dc7a540d.jar" />
+    </item>
+    <item
+        jar="/Users/ngrogan/Dropbox/dev/ucd/android/project/ripapp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4cd0b093824b3228fffc21ea369b98d0b1db6566">
+        <dex dex="/Users/ngrogan/Dropbox/dev/ucd/android/project/ripapp/app/build/intermediates/pre-dexed/debug/classes-306d55a87c94580452ccb83cc6891e92a44fa7b0.jar" />
+    </item>
+    <item
+        jar="/Users/ngrogan/Dropbox/dev/ucd/android/project/ripapp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1c5a76debf0c2857ccad422c4a80ed785982f8df">
+        <dex dex="/Users/ngrogan/Dropbox/dev/ucd/android/project/ripapp/app/build/intermediates/pre-dexed/debug/classes-1785e27bdc1fb10d9dbb09ac37232a447fadb3ac.jar" />
+    </item>
+    <item
+        jar="/Users/ngrogan/Dropbox/dev/ucd/android/project/ripapp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="17f8750d5c0749e44dd7c54aa390d9c937803825">
+        <dex dex="/Users/ngrogan/Dropbox/dev/ucd/android/project/ripapp/app/build/intermediates/pre-dexed/debug/classes-b6ae73580d3282dadc2f37a5bb224e44bbd1b978.jar" />
+    </item>
+    <item
+        jar="/Users/ngrogan/Dropbox/dev/ucd/android/project/ripapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="/Users/ngrogan/Dropbox/dev/ucd/android/project/ripapp/app/build/intermediates/pre-dexed/debug/classes-3f3497d98ff91bee8135e1fe32f2d1271b71cb86.jar" />
+    </item>
+    <item
+        jar="/Users/ngrogan/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="/Users/ngrogan/Dropbox/dev/ucd/android/project/ripapp/app/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-d47b29c073e1cf59fcf8caad743e620cf05df3ea.jar" />
+    </item>
+    <item
+        jar="/Users/ngrogan/Dropbox/dev/ucd/android/project/ripapp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e3d791b42eaa90416cd0b2d2e608092794a3baa4">
+        <dex dex="/Users/ngrogan/Dropbox/dev/ucd/android/project/ripapp/app/build/intermediates/pre-dexed/debug/classes-756246f9c80c729f1136ddc29803e20e19a7bfce.jar" />
+    </item>
+    <item
+        jar="/Users/ngrogan/Dropbox/dev/ucd/android/project/ripapp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="29fd6d3794b71491c2789708cd8d03c71feb8954">
+        <dex dex="/Users/ngrogan/Dropbox/dev/ucd/android/project/ripapp/app/build/intermediates/pre-dexed/debug/classes-8dbc045e108d447eaf56d85db1bfabad03af95bf.jar" />
+    </item>
+    <item
+        jar="/Users/ngrogan/Dropbox/dev/ucd/android/project/ripapp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4c93d99d454c975536bbe3b42283eee847f03ea3">
+        <dex dex="/Users/ngrogan/Dropbox/dev/ucd/android/project/ripapp/app/build/intermediates/pre-dexed/debug/classes-0e1c7161239dd92806c5388e9c2bac9f20ea09df.jar" />
+    </item>
+    <item
+        jar="/Users/ngrogan/Dropbox/dev/ucd/android/project/ripapp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="055783146ba9654a725442563be78cad303aad1f">
+        <dex dex="/Users/ngrogan/Dropbox/dev/ucd/android/project/ripapp/app/build/intermediates/pre-dexed/debug/classes-600ea04b1c5513484e2b1ba79dfa843c8fdd08aa.jar" />
+    </item>
+    <item
+        jar="/Users/ngrogan/Dropbox/dev/ucd/android/project/ripapp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9224bc4c54ba95147c7eabd874573763c07cb6be">
+        <dex dex="/Users/ngrogan/Dropbox/dev/ucd/android/project/ripapp/app/build/intermediates/pre-dexed/debug/classes-a3650629f6abff48427f3ae4788eb401ecea6382.jar" />
+    </item>
+    <item
+        jar="/Users/ngrogan/Dropbox/dev/ucd/android/project/ripapp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ef5f051e7308febe289dc93c67c5f32785b4260a">
+        <dex dex="/Users/ngrogan/Dropbox/dev/ucd/android/project/ripapp/app/build/intermediates/pre-dexed/debug/classes-3ec0c556ed1ab47b47c3f1a7b5b7eaabfe7a7376.jar" />
+    </item>
+    <item
+        jar="/Users/ngrogan/Dropbox/dev/ucd/android/project/ripapp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c976518693e89ad44fbfccfc654941eaec198d08">
+        <dex dex="/Users/ngrogan/Dropbox/dev/ucd/android/project/ripapp/app/build/intermediates/pre-dexed/debug/classes-4601577b44db017468b4c690b41d7331aa45373d.jar" />
+    </item>
+    <item
+        jar="/Users/ngrogan/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/Users/ngrogan/Dropbox/dev/ucd/android/project/ripapp/app/build/intermediates/pre-dexed/debug/gson-2.3.1-3cb40df473ced63969b20441d4d99905015ae15f.jar" />
+    </item>
+    <item
+        jar="/Users/ngrogan/Dropbox/dev/ucd/android/project/ripapp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="41b3870cbe5fa546d8095b5b89d42cb69f3dd175">
+        <dex dex="/Users/ngrogan/Dropbox/dev/ucd/android/project/ripapp/app/build/intermediates/pre-dexed/debug/classes-3108558000cf6921573808a406bb7746471a8be9.jar" />
+    </item>
+    <item
+        jar="/Users/ngrogan/Dropbox/dev/ucd/android/project/ripapp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a96b762bde4139de855735f175ec4d17dca55a6d">
+        <dex dex="/Users/ngrogan/Dropbox/dev/ucd/android/project/ripapp/app/build/intermediates/pre-dexed/debug/classes-85bad04559e08e481720ec227053eb0ac86a41ad.jar" />
+    </item>
+    <item
+        jar="/Users/ngrogan/Dropbox/dev/ucd/android/project/ripapp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3033cc3a2c68dff3e5b646d6d084bdbdf7d00b25">
+        <dex dex="/Users/ngrogan/Dropbox/dev/ucd/android/project/ripapp/app/build/intermediates/pre-dexed/debug/classes-b7fcf751ef132fd455b74f0ab0282a61dd10504b.jar" />
+    </item>
+    <item
+        jar="/Users/ngrogan/Dropbox/dev/ucd/android/project/ripapp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="fb04b12526b0073c7fb1ebb70c5842d82ee95596">
+        <dex dex="/Users/ngrogan/Dropbox/dev/ucd/android/project/ripapp/app/build/intermediates/pre-dexed/debug/classes-54975a8366a8b9ec26ae53bb20b1d0f979c6aae9.jar" />
+    </item>
+    <item
+        jar="/Users/ngrogan/Dropbox/dev/ucd/android/project/ripapp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="73ccb92b70112f2e463e415ef8d7275de7da6516">
+        <dex dex="/Users/ngrogan/Dropbox/dev/ucd/android/project/ripapp/app/build/intermediates/pre-dexed/debug/classes-b235e428db3781be7b24f7a9f3817ab79a876683.jar" />
+    </item>
+    <item
+        jar="/Users/ngrogan/Dropbox/dev/ucd/android/project/ripapp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a08d65794b844d8e7540bf9a33859bf3b2482d7f">
+        <dex dex="/Users/ngrogan/Dropbox/dev/ucd/android/project/ripapp/app/build/intermediates/pre-dexed/debug/classes-c5a4e99482db4afda9fe3e4a035c500369c7e043.jar" />
+    </item>
+    <item
+        jar="/Users/ngrogan/Dropbox/dev/ucd/android/project/ripapp/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/Users/ngrogan/Dropbox/dev/ucd/android/project/ripapp/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-fc6f311cb2ca77c7e24e21c428f501ebeb046cfb.jar" />
+    </item>
+
+</items>
