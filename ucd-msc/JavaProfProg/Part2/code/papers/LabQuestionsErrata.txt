@@ -1,0 +1,60 @@
+Exceptions and Assertions
+-------------------------
+
+Coding Question page 11-12
+
+Replace both occurrences of:
+
+ catch (ArrayIndexOutOfBoundsException oe) {
+ System.out.println("An exception occurred: " + oe);
+ }
+
+with:
+
+ catch (ArithmeticException ae) {
+
+ System.out.println("An exception occurred: " + ae);
+
+ }
+
+
+
+Input and Output
+----------------
+
+Review Question 7, page 16
+
+Replace the given piece of code with:
+
+  FileOutputStream fo = new FileOutputStream("myFile.txt");
+
+  DataOutputStream out = new DataOutputStream(fo);
+
+  out.writeByte(9);
+
+  out.writeFloat(4.20f);
+
+  out.close();
+
+
+
+Strings, Formatters and Wrappers
+--------------------------------
+
+Question 5, page 32
+
+line 2 should be: String s2 = new String(s1);
+
+
+
+Collections
+-----------
+
+Question 13, page 45
+
+Map<String> names = new HashMap<String>();
+
+should read
+
+Set<String> names = new HashSet<String>();
+
