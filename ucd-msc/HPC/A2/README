@@ -1,0 +1,8 @@
+13204052 - Neil Grogan - High Performance Computing
+===================================================
+
+Assignment 2 - Parallel Pthreads program computing the norm of the product of two n×n dense matrices 
+==============================================================================
+Questions: 1-a, 2-a, 3-a
+
+To plot all, run the file `as2-plot_all` in this directory with GNUPLOT (version should be: gnuplot 4.6 patchlevel 3 or above).

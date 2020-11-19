@@ -1,0 +1,8 @@
+13204052 - Neil Grogan - High Performance Computing
+===================================================
+
+Assignment 4 - Parallel OpenMPI program computing the col norm of the product of two n×n dense matrices 
+==============================================================================
+Questions: 1-a, 2-a, 3-a
+
+To plot all, run the file `as4-plot-all` in this directory with GNUPLOT (version should be: gnuplot 4.6 patchlevel 3 or above).

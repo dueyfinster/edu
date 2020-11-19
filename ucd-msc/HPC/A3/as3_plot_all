@@ -1,0 +1,13 @@
+set title "OpenMP vs pThreads Matrix Multiplication and Col Max Norm"
+set zlabel "Size of Matrix"
+set ylabel "Time (sec)"
+#set legend position
+set key left box
+
+plot "open_mp_data" using 1:2 title 'OpenMP Matrix Multiplication and Col Max Norm', \
+"../A2/multi_threaded" using 2:3 title 'pThreads Matrix Multiplication and Col Max Norm'
+
+
+#it will close immediately without pause
+pause -1
+
