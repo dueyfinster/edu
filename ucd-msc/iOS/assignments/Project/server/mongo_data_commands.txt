@@ -1,0 +1,7 @@
+use customer;
+
+db.location.insert({"Location" : [{"lat" : 52.5810793, "long": -6.2450923}]});
+
+
+
+db.price.insert({"Prices" : [{"Oil" : 85, "Gas": 62, "BER": 73}]});

@@ -1,0 +1,856 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD0FC0121904313E00F4295C /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD0FC0111904313E00F4295C /* MessageUI.framework */; };
+		AD0FC0161904453B00F4295C /* Customer.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0FC0151904453B00F4295C /* Customer.m */; };
+		AD3DADE618F73AB600C8F1E9 /* RemindersListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3DADE518F73AB600C8F1E9 /* RemindersListViewController.m */; };
+		AD3DADE918F73C2900C8F1E9 /* AddReminderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3DADE818F73C2800C8F1E9 /* AddReminderViewController.m */; };
+		AD3DADEC18F73D8E00C8F1E9 /* AddReminderForm.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3DADEB18F73D8E00C8F1E9 /* AddReminderForm.m */; };
+		AD3DADF018F756EB00C8F1E9 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD3DADEF18F756EB00C8F1E9 /* EventKit.framework */; };
+		AD3DADF218FB2A0300C8F1E9 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD3DADF118FB2A0300C8F1E9 /* EventKitUI.framework */; };
+		AD3DADFA1901534100C8F1E9 /* ContactUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3DADF91901534100C8F1E9 /* ContactUsViewController.m */; };
+		AD3DAE02190181DA00C8F1E9 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3DAE01190181DA00C8F1E9 /* MainViewController.m */; };
+		AD3DAE051903027500C8F1E9 /* ReminderDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3DAE041903027500C8F1E9 /* ReminderDetailViewController.m */; };
+		AD626E56190A6A9F0042998B /* FXForms.m in Sources */ = {isa = PBXBuildFile; fileRef = AD626E55190A6A9F0042998B /* FXForms.m */; };
+		AD6CB0D9188AE73C00356AA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD6CB0D8188AE73C00356AA4 /* Foundation.framework */; };
+		AD6CB0DB188AE73C00356AA4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD6CB0DA188AE73C00356AA4 /* CoreGraphics.framework */; };
+		AD6CB0DD188AE73D00356AA4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD6CB0DC188AE73C00356AA4 /* UIKit.framework */; };
+		AD6CB0E3188AE73D00356AA4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AD6CB0E1188AE73D00356AA4 /* InfoPlist.strings */; };
+		AD6CB0E5188AE73D00356AA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD6CB0E4188AE73D00356AA4 /* main.m */; };
+		AD6CB0E9188AE73D00356AA4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD6CB0E8188AE73D00356AA4 /* AppDelegate.m */; };
+		AD6CB0F1188AE73D00356AA4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD6CB0F0188AE73D00356AA4 /* Images.xcassets */; };
+		AD6CB0F8188AE73D00356AA4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD6CB0F7188AE73D00356AA4 /* XCTest.framework */; };
+		AD6CB0F9188AE73D00356AA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD6CB0D8188AE73C00356AA4 /* Foundation.framework */; };
+		AD6CB0FA188AE73D00356AA4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD6CB0DC188AE73C00356AA4 /* UIKit.framework */; };
+		AD6CB102188AE73D00356AA4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AD6CB100188AE73D00356AA4 /* InfoPlist.strings */; };
+		AD6CB104188AE73D00356AA4 /* Grogan_Burner_ServicesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD6CB103188AE73D00356AA4 /* Grogan_Burner_ServicesTests.m */; };
+		AD6CB14F188AF5D400356AA4 /* ECPercentDrivenInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = AD6CB143188AF5D400356AA4 /* ECPercentDrivenInteractiveTransition.m */; };
+		AD6CB150188AF5D400356AA4 /* ECSlidingAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD6CB145188AF5D400356AA4 /* ECSlidingAnimationController.m */; };
+		AD6CB151188AF5D400356AA4 /* ECSlidingInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = AD6CB148188AF5D400356AA4 /* ECSlidingInteractiveTransition.m */; };
+		AD6CB152188AF5D400356AA4 /* ECSlidingSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = AD6CB14A188AF5D400356AA4 /* ECSlidingSegue.m */; };
+		AD6CB153188AF5D400356AA4 /* ECSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD6CB14C188AF5D400356AA4 /* ECSlidingViewController.m */; };
+		AD6CB154188AF5D400356AA4 /* UIViewController+ECSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD6CB14E188AF5D400356AA4 /* UIViewController+ECSlidingViewController.m */; };
+		AD6CB19B188AFD0A00356AA4 /* MEMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD6CB199188AFD0A00356AA4 /* MEMenuViewController.m */; };
+		AD6CB19D188AFD2400356AA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD6CB19C188AFD2400356AA4 /* Main.storyboard */; };
+		ADDEB2EB1903355E00E1D40E /* ContactForm.m in Sources */ = {isa = PBXBuildFile; fileRef = ADDEB2EA1903355E00E1D40E /* ContactForm.m */; };
+		ADEA2D8618EA2D330022BB88 /* MapVC.m in Sources */ = {isa = PBXBuildFile; fileRef = ADEA2D8518EA2D330022BB88 /* MapVC.m */; };
+		ADEA2D8818EA2E260022BB88 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADEA2D8718EA2E260022BB88 /* MapKit.framework */; };
+		ADEA2D9218F1F1200022BB88 /* JBBarChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = ADEA2D8C18F1F1200022BB88 /* JBBarChartView.m */; };
+		ADEA2D9318F1F1200022BB88 /* JBChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = ADEA2D8E18F1F1200022BB88 /* JBChartView.m */; };
+		ADEA2D9518F1F1200022BB88 /* JBLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = ADEA2D9118F1F1200022BB88 /* JBLineChartView.m */; };
+		ADEA2D9C18F1F2200022BB88 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADEA2D9B18F1F2200022BB88 /* CoreData.framework */; };
+		ADEA2D9F18F1F2570022BB88 /* Grogan Burner Services.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ADEA2D9D18F1F2570022BB88 /* Grogan Burner Services.xcdatamodeld */; };
+		ADEA2DA218F1F35F0022BB88 /* MyInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADEA2DA118F1F35F0022BB88 /* MyInfoViewController.m */; };
+		ADEA2DA518F1F3CD0022BB88 /* MyServicesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADEA2DA418F1F3CD0022BB88 /* MyServicesViewController.m */; };
+		ADEA2DA818F32AB70022BB88 /* FixedAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = ADEA2DA718F32AB70022BB88 /* FixedAnnotation.m */; };
+		ADEA2DAA18F341130022BB88 /* ucd.gpx in Resources */ = {isa = PBXBuildFile; fileRef = ADEA2DA918F341130022BB88 /* ucd.gpx */; };
+		ADEA2DB618F49A220022BB88 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADEA2DB518F49A220022BB88 /* QuartzCore.framework */; };
+		ADEA2DBA18F49AB80022BB88 /* SVPulsingAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = ADEA2DB918F49AB80022BB88 /* SVPulsingAnnotationView.m */; };
+		ADEA2DBC18F49E3A0022BB88 /* LiveAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = ADEA2DBB18F49E3A0022BB88 /* LiveAnnotation.m */; };
+		ADEA2DC118F4A2AB0022BB88 /* PricesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADEA2DC018F4A2AB0022BB88 /* PricesTableViewController.m */; };
+		ADEA2DC518F4AE970022BB88 /* DataFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = ADEA2DC418F4AE970022BB88 /* DataFetcher.m */; };
+		ADEA2DC918F4BF7E0022BB88 /* GBS_Logo_ Wide_Banner_HighRes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADEA2DC818F4BF7E0022BB88 /* GBS_Logo_ Wide_Banner_HighRes.jpg */; };
+		ADEA2DD018F5C5660022BB88 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADEA2DCF18F5C5660022BB88 /* FacebookSDK.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD6CB0FB188AE73D00356AA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD6CB0CD188AE73C00356AA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD6CB0D4188AE73C00356AA4;
+			remoteInfo = "Grogan Burner Services";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD0FC0111904313E00F4295C /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		AD0FC0141904453B00F4295C /* Customer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Customer.h; sourceTree = "<group>"; };
+		AD0FC0151904453B00F4295C /* Customer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Customer.m; sourceTree = "<group>"; };
+		AD3DADE418F73AB600C8F1E9 /* RemindersListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemindersListViewController.h; sourceTree = "<group>"; };
+		AD3DADE518F73AB600C8F1E9 /* RemindersListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemindersListViewController.m; sourceTree = "<group>"; };
+		AD3DADE718F73C2800C8F1E9 /* AddReminderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddReminderViewController.h; sourceTree = "<group>"; };
+		AD3DADE818F73C2800C8F1E9 /* AddReminderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddReminderViewController.m; sourceTree = "<group>"; };
+		AD3DADEA18F73D8E00C8F1E9 /* AddReminderForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddReminderForm.h; sourceTree = "<group>"; };
+		AD3DADEB18F73D8E00C8F1E9 /* AddReminderForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddReminderForm.m; sourceTree = "<group>"; };
+		AD3DADEF18F756EB00C8F1E9 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		AD3DADF118FB2A0300C8F1E9 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		AD3DADF81901534100C8F1E9 /* ContactUsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactUsViewController.h; sourceTree = "<group>"; };
+		AD3DADF91901534100C8F1E9 /* ContactUsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactUsViewController.m; sourceTree = "<group>"; };
+		AD3DAE00190181DA00C8F1E9 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		AD3DAE01190181DA00C8F1E9 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		AD3DAE031903027500C8F1E9 /* ReminderDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReminderDetailViewController.h; sourceTree = "<group>"; };
+		AD3DAE041903027500C8F1E9 /* ReminderDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReminderDetailViewController.m; sourceTree = "<group>"; };
+		AD626E54190A6A9F0042998B /* FXForms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXForms.h; sourceTree = "<group>"; };
+		AD626E55190A6A9F0042998B /* FXForms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXForms.m; sourceTree = "<group>"; };
+		AD6CB0D5188AE73C00356AA4 /* Grogan Burner Services.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Grogan Burner Services.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD6CB0D8188AE73C00356AA4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AD6CB0DA188AE73C00356AA4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AD6CB0DC188AE73C00356AA4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AD6CB0E0188AE73D00356AA4 /* Grogan Burner Services-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Grogan Burner Services-Info.plist"; sourceTree = "<group>"; };
+		AD6CB0E2188AE73D00356AA4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AD6CB0E4188AE73D00356AA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD6CB0E6188AE73D00356AA4 /* Grogan Burner Services-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Grogan Burner Services-Prefix.pch"; sourceTree = "<group>"; };
+		AD6CB0E7188AE73D00356AA4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AD6CB0E8188AE73D00356AA4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AD6CB0F0188AE73D00356AA4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AD6CB0F6188AE73D00356AA4 /* Grogan Burner ServicesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Grogan Burner ServicesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD6CB0F7188AE73D00356AA4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AD6CB0FF188AE73D00356AA4 /* Grogan Burner ServicesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Grogan Burner ServicesTests-Info.plist"; sourceTree = "<group>"; };
+		AD6CB101188AE73D00356AA4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AD6CB103188AE73D00356AA4 /* Grogan_Burner_ServicesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Grogan_Burner_ServicesTests.m; sourceTree = "<group>"; };
+		AD6CB142188AF5D400356AA4 /* ECPercentDrivenInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECPercentDrivenInteractiveTransition.h; sourceTree = "<group>"; };
+		AD6CB143188AF5D400356AA4 /* ECPercentDrivenInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECPercentDrivenInteractiveTransition.m; sourceTree = "<group>"; };
+		AD6CB144188AF5D400356AA4 /* ECSlidingAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSlidingAnimationController.h; sourceTree = "<group>"; };
+		AD6CB145188AF5D400356AA4 /* ECSlidingAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSlidingAnimationController.m; sourceTree = "<group>"; };
+		AD6CB146188AF5D400356AA4 /* ECSlidingConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSlidingConstants.h; sourceTree = "<group>"; };
+		AD6CB147188AF5D400356AA4 /* ECSlidingInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSlidingInteractiveTransition.h; sourceTree = "<group>"; };
+		AD6CB148188AF5D400356AA4 /* ECSlidingInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSlidingInteractiveTransition.m; sourceTree = "<group>"; };
+		AD6CB149188AF5D400356AA4 /* ECSlidingSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSlidingSegue.h; sourceTree = "<group>"; };
+		AD6CB14A188AF5D400356AA4 /* ECSlidingSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSlidingSegue.m; sourceTree = "<group>"; };
+		AD6CB14B188AF5D400356AA4 /* ECSlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSlidingViewController.h; sourceTree = "<group>"; };
+		AD6CB14C188AF5D400356AA4 /* ECSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSlidingViewController.m; sourceTree = "<group>"; };
+		AD6CB14D188AF5D400356AA4 /* UIViewController+ECSlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ECSlidingViewController.h"; sourceTree = "<group>"; };
+		AD6CB14E188AF5D400356AA4 /* UIViewController+ECSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ECSlidingViewController.m"; sourceTree = "<group>"; };
+		AD6CB198188AFD0A00356AA4 /* MEMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEMenuViewController.h; sourceTree = "<group>"; };
+		AD6CB199188AFD0A00356AA4 /* MEMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEMenuViewController.m; sourceTree = "<group>"; };
+		AD6CB19C188AFD2400356AA4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		ADDEB2E91903355E00E1D40E /* ContactForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactForm.h; sourceTree = "<group>"; };
+		ADDEB2EA1903355E00E1D40E /* ContactForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactForm.m; sourceTree = "<group>"; };
+		ADEA2D8418EA2D330022BB88 /* MapVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapVC.h; sourceTree = "<group>"; };
+		ADEA2D8518EA2D330022BB88 /* MapVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapVC.m; sourceTree = "<group>"; };
+		ADEA2D8718EA2E260022BB88 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		ADEA2D8B18F1F1200022BB88 /* JBBarChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBBarChartView.h; sourceTree = "<group>"; };
+		ADEA2D8C18F1F1200022BB88 /* JBBarChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBBarChartView.m; sourceTree = "<group>"; };
+		ADEA2D8D18F1F1200022BB88 /* JBChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBChartView.h; sourceTree = "<group>"; };
+		ADEA2D8E18F1F1200022BB88 /* JBChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBChartView.m; sourceTree = "<group>"; };
+		ADEA2D9018F1F1200022BB88 /* JBLineChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBLineChartView.h; sourceTree = "<group>"; };
+		ADEA2D9118F1F1200022BB88 /* JBLineChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBLineChartView.m; sourceTree = "<group>"; };
+		ADEA2D9B18F1F2200022BB88 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		ADEA2D9E18F1F2570022BB88 /* Grogan Burner Services.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Grogan Burner Services.xcdatamodel"; sourceTree = "<group>"; };
+		ADEA2DA018F1F35F0022BB88 /* MyInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyInfoViewController.h; sourceTree = "<group>"; };
+		ADEA2DA118F1F35F0022BB88 /* MyInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyInfoViewController.m; sourceTree = "<group>"; };
+		ADEA2DA318F1F3CD0022BB88 /* MyServicesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyServicesViewController.h; sourceTree = "<group>"; };
+		ADEA2DA418F1F3CD0022BB88 /* MyServicesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyServicesViewController.m; sourceTree = "<group>"; };
+		ADEA2DA618F32AB70022BB88 /* FixedAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FixedAnnotation.h; sourceTree = "<group>"; };
+		ADEA2DA718F32AB70022BB88 /* FixedAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FixedAnnotation.m; sourceTree = "<group>"; };
+		ADEA2DA918F341130022BB88 /* ucd.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ucd.gpx; sourceTree = "<group>"; };
+		ADEA2DB518F49A220022BB88 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		ADEA2DB818F49AB80022BB88 /* SVPulsingAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVPulsingAnnotationView.h; sourceTree = "<group>"; };
+		ADEA2DB918F49AB80022BB88 /* SVPulsingAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVPulsingAnnotationView.m; sourceTree = "<group>"; };
+		ADEA2DBB18F49E3A0022BB88 /* LiveAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveAnnotation.m; sourceTree = "<group>"; };
+		ADEA2DBD18F49E490022BB88 /* LiveAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveAnnotation.h; sourceTree = "<group>"; };
+		ADEA2DBF18F4A2AB0022BB88 /* PricesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PricesTableViewController.h; sourceTree = "<group>"; };
+		ADEA2DC018F4A2AB0022BB88 /* PricesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PricesTableViewController.m; sourceTree = "<group>"; };
+		ADEA2DC318F4AE970022BB88 /* DataFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataFetcher.h; sourceTree = "<group>"; };
+		ADEA2DC418F4AE970022BB88 /* DataFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataFetcher.m; sourceTree = "<group>"; };
+		ADEA2DC818F4BF7E0022BB88 /* GBS_Logo_ Wide_Banner_HighRes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "GBS_Logo_ Wide_Banner_HighRes.jpg"; sourceTree = "<group>"; };
+		ADEA2DCF18F5C5660022BB88 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD6CB0D2188AE73C00356AA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD0FC0121904313E00F4295C /* MessageUI.framework in Frameworks */,
+				AD3DADF218FB2A0300C8F1E9 /* EventKitUI.framework in Frameworks */,
+				AD3DADF018F756EB00C8F1E9 /* EventKit.framework in Frameworks */,
+				ADEA2DB618F49A220022BB88 /* QuartzCore.framework in Frameworks */,
+				ADEA2D9C18F1F2200022BB88 /* CoreData.framework in Frameworks */,
+				ADEA2D8818EA2E260022BB88 /* MapKit.framework in Frameworks */,
+				AD6CB0DB188AE73C00356AA4 /* CoreGraphics.framework in Frameworks */,
+				AD6CB0DD188AE73D00356AA4 /* UIKit.framework in Frameworks */,
+				AD6CB0D9188AE73C00356AA4 /* Foundation.framework in Frameworks */,
+				ADEA2DD018F5C5660022BB88 /* FacebookSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD6CB0F3188AE73D00356AA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD6CB0F8188AE73D00356AA4 /* XCTest.framework in Frameworks */,
+				AD6CB0FA188AE73D00356AA4 /* UIKit.framework in Frameworks */,
+				AD6CB0F9188AE73D00356AA4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD0FC0131904452900F4295C /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				ADEA2D9D18F1F2570022BB88 /* Grogan Burner Services.xcdatamodeld */,
+				AD0FC0141904453B00F4295C /* Customer.h */,
+				AD0FC0151904453B00F4295C /* Customer.m */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		AD3DADE018F7382300C8F1E9 /* Reminders */ = {
+			isa = PBXGroup;
+			children = (
+				AD3DADEE18F73FBB00C8F1E9 /* Model */,
+				AD3DADED18F73FAD00C8F1E9 /* Controllers */,
+			);
+			name = Reminders;
+			sourceTree = "<group>";
+		};
+		AD3DADED18F73FAD00C8F1E9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AD3DADE418F73AB600C8F1E9 /* RemindersListViewController.h */,
+				AD3DADE518F73AB600C8F1E9 /* RemindersListViewController.m */,
+				AD3DADE718F73C2800C8F1E9 /* AddReminderViewController.h */,
+				AD3DADE818F73C2800C8F1E9 /* AddReminderViewController.m */,
+				AD3DAE031903027500C8F1E9 /* ReminderDetailViewController.h */,
+				AD3DAE041903027500C8F1E9 /* ReminderDetailViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		AD3DADEE18F73FBB00C8F1E9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AD3DADEA18F73D8E00C8F1E9 /* AddReminderForm.h */,
+				AD3DADEB18F73D8E00C8F1E9 /* AddReminderForm.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		AD3DADF71901530B00C8F1E9 /* Main Screen */ = {
+			isa = PBXGroup;
+			children = (
+				ADDEB2EC1903356200E1D40E /* Model */,
+				AD3DADFB1901534800C8F1E9 /* Controllers */,
+			);
+			name = "Main Screen";
+			sourceTree = "<group>";
+		};
+		AD3DADFB1901534800C8F1E9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AD3DAE00190181DA00C8F1E9 /* MainViewController.h */,
+				AD3DAE01190181DA00C8F1E9 /* MainViewController.m */,
+				AD3DADF81901534100C8F1E9 /* ContactUsViewController.h */,
+				AD3DADF91901534100C8F1E9 /* ContactUsViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		AD626E53190A6A9F0042998B /* FXForms */ = {
+			isa = PBXGroup;
+			children = (
+				AD626E54190A6A9F0042998B /* FXForms.h */,
+				AD626E55190A6A9F0042998B /* FXForms.m */,
+			);
+			path = FXForms;
+			sourceTree = "<group>";
+		};
+		AD6CB0CC188AE73C00356AA4 = {
+			isa = PBXGroup;
+			children = (
+				AD6CB0DE188AE73D00356AA4 /* Grogan Burner Services */,
+				AD6CB0FD188AE73D00356AA4 /* Grogan Burner ServicesTests */,
+				AD6CB0D7188AE73C00356AA4 /* Frameworks */,
+				AD6CB0D6188AE73C00356AA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD6CB0D6188AE73C00356AA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD6CB0D5188AE73C00356AA4 /* Grogan Burner Services.app */,
+				AD6CB0F6188AE73D00356AA4 /* Grogan Burner ServicesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD6CB0D7188AE73C00356AA4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD0FC0111904313E00F4295C /* MessageUI.framework */,
+				AD3DADF118FB2A0300C8F1E9 /* EventKitUI.framework */,
+				AD3DADEF18F756EB00C8F1E9 /* EventKit.framework */,
+				ADEA2DCF18F5C5660022BB88 /* FacebookSDK.framework */,
+				ADEA2DB518F49A220022BB88 /* QuartzCore.framework */,
+				ADEA2D9B18F1F2200022BB88 /* CoreData.framework */,
+				ADEA2D8718EA2E260022BB88 /* MapKit.framework */,
+				AD6CB0D8188AE73C00356AA4 /* Foundation.framework */,
+				AD6CB0DA188AE73C00356AA4 /* CoreGraphics.framework */,
+				AD6CB0DC188AE73C00356AA4 /* UIKit.framework */,
+				AD6CB0F7188AE73D00356AA4 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD6CB0DE188AE73D00356AA4 /* Grogan Burner Services */ = {
+			isa = PBXGroup;
+			children = (
+				AD6CB19C188AFD2400356AA4 /* Main.storyboard */,
+				AD3DADF71901530B00C8F1E9 /* Main Screen */,
+				AD3DADE018F7382300C8F1E9 /* Reminders */,
+				ADEA2DBE18F4A2800022BB88 /* Prices */,
+				ADEA2D9818F1F1FA0022BB88 /* YourInfo */,
+				ADEA2D9718F1F1710022BB88 /* Map */,
+				AD6CB0F0188AE73D00356AA4 /* Images.xcassets */,
+				ADEA2DC218F4AE680022BB88 /* Data */,
+				AD6CB0DF188AE73D00356AA4 /* Supporting Files */,
+			);
+			path = "Grogan Burner Services";
+			sourceTree = "<group>";
+		};
+		AD6CB0DF188AE73D00356AA4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADEA2DCA18F4C2770022BB88 /* Images */,
+				ADEA2D8918F1F1100022BB88 /* Libraries */,
+				AD6CB0E7188AE73D00356AA4 /* AppDelegate.h */,
+				AD6CB0E8188AE73D00356AA4 /* AppDelegate.m */,
+				AD6CB0E0188AE73D00356AA4 /* Grogan Burner Services-Info.plist */,
+				AD6CB0E1188AE73D00356AA4 /* InfoPlist.strings */,
+				AD6CB0E4188AE73D00356AA4 /* main.m */,
+				AD6CB0E6188AE73D00356AA4 /* Grogan Burner Services-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AD6CB0FD188AE73D00356AA4 /* Grogan Burner ServicesTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD6CB103188AE73D00356AA4 /* Grogan_Burner_ServicesTests.m */,
+				AD6CB0FE188AE73D00356AA4 /* Supporting Files */,
+			);
+			path = "Grogan Burner ServicesTests";
+			sourceTree = "<group>";
+		};
+		AD6CB0FE188AE73D00356AA4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD6CB0FF188AE73D00356AA4 /* Grogan Burner ServicesTests-Info.plist */,
+				AD6CB100188AE73D00356AA4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AD6CB141188AF5D400356AA4 /* ECSlidingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AD6CB142188AF5D400356AA4 /* ECPercentDrivenInteractiveTransition.h */,
+				AD6CB143188AF5D400356AA4 /* ECPercentDrivenInteractiveTransition.m */,
+				AD6CB144188AF5D400356AA4 /* ECSlidingAnimationController.h */,
+				AD6CB145188AF5D400356AA4 /* ECSlidingAnimationController.m */,
+				AD6CB146188AF5D400356AA4 /* ECSlidingConstants.h */,
+				AD6CB147188AF5D400356AA4 /* ECSlidingInteractiveTransition.h */,
+				AD6CB148188AF5D400356AA4 /* ECSlidingInteractiveTransition.m */,
+				AD6CB149188AF5D400356AA4 /* ECSlidingSegue.h */,
+				AD6CB14A188AF5D400356AA4 /* ECSlidingSegue.m */,
+				AD6CB14B188AF5D400356AA4 /* ECSlidingViewController.h */,
+				AD6CB14C188AF5D400356AA4 /* ECSlidingViewController.m */,
+				AD6CB14D188AF5D400356AA4 /* UIViewController+ECSlidingViewController.h */,
+				AD6CB14E188AF5D400356AA4 /* UIViewController+ECSlidingViewController.m */,
+			);
+			name = ECSlidingViewController;
+			path = ../ECSlidingViewController;
+			sourceTree = "<group>";
+		};
+		ADDEB2EC1903356200E1D40E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ADDEB2E91903355E00E1D40E /* ContactForm.h */,
+				ADDEB2EA1903355E00E1D40E /* ContactForm.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		ADEA2D8918F1F1100022BB88 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				AD626E53190A6A9F0042998B /* FXForms */,
+				ADEA2DB718F49AB80022BB88 /* SVPulsingAnnotationView */,
+				ADEA2D9618F1F1460022BB88 /* Sliding Menu */,
+				AD6CB141188AF5D400356AA4 /* ECSlidingViewController */,
+				ADEA2D8A18F1F1200022BB88 /* Jawbone - JBChartView */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		ADEA2D8A18F1F1200022BB88 /* Jawbone - JBChartView */ = {
+			isa = PBXGroup;
+			children = (
+				ADEA2D8B18F1F1200022BB88 /* JBBarChartView.h */,
+				ADEA2D8C18F1F1200022BB88 /* JBBarChartView.m */,
+				ADEA2D8D18F1F1200022BB88 /* JBChartView.h */,
+				ADEA2D8E18F1F1200022BB88 /* JBChartView.m */,
+				ADEA2D9018F1F1200022BB88 /* JBLineChartView.h */,
+				ADEA2D9118F1F1200022BB88 /* JBLineChartView.m */,
+			);
+			name = "Jawbone - JBChartView";
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		ADEA2D9618F1F1460022BB88 /* Sliding Menu */ = {
+			isa = PBXGroup;
+			children = (
+				AD6CB198188AFD0A00356AA4 /* MEMenuViewController.h */,
+				AD6CB199188AFD0A00356AA4 /* MEMenuViewController.m */,
+			);
+			name = "Sliding Menu";
+			sourceTree = "<group>";
+		};
+		ADEA2D9718F1F1710022BB88 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				ADEA2DA618F32AB70022BB88 /* FixedAnnotation.h */,
+				ADEA2DA718F32AB70022BB88 /* FixedAnnotation.m */,
+				ADEA2DBD18F49E490022BB88 /* LiveAnnotation.h */,
+				ADEA2DBB18F49E3A0022BB88 /* LiveAnnotation.m */,
+				ADEA2D8418EA2D330022BB88 /* MapVC.h */,
+				ADEA2D8518EA2D330022BB88 /* MapVC.m */,
+				ADEA2DA918F341130022BB88 /* ucd.gpx */,
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
+		ADEA2D9818F1F1FA0022BB88 /* YourInfo */ = {
+			isa = PBXGroup;
+			children = (
+				AD0FC0131904452900F4295C /* CoreData */,
+				ADEA2D9A18F1F2120022BB88 /* Servicing */,
+				ADEA2D9918F1F2080022BB88 /* Contact */,
+			);
+			name = YourInfo;
+			sourceTree = "<group>";
+		};
+		ADEA2D9918F1F2080022BB88 /* Contact */ = {
+			isa = PBXGroup;
+			children = (
+				ADEA2DA018F1F35F0022BB88 /* MyInfoViewController.h */,
+				ADEA2DA118F1F35F0022BB88 /* MyInfoViewController.m */,
+			);
+			name = Contact;
+			sourceTree = "<group>";
+		};
+		ADEA2D9A18F1F2120022BB88 /* Servicing */ = {
+			isa = PBXGroup;
+			children = (
+				ADEA2DA318F1F3CD0022BB88 /* MyServicesViewController.h */,
+				ADEA2DA418F1F3CD0022BB88 /* MyServicesViewController.m */,
+			);
+			name = Servicing;
+			sourceTree = "<group>";
+		};
+		ADEA2DB718F49AB80022BB88 /* SVPulsingAnnotationView */ = {
+			isa = PBXGroup;
+			children = (
+				ADEA2DB818F49AB80022BB88 /* SVPulsingAnnotationView.h */,
+				ADEA2DB918F49AB80022BB88 /* SVPulsingAnnotationView.m */,
+			);
+			path = SVPulsingAnnotationView;
+			sourceTree = "<group>";
+		};
+		ADEA2DBE18F4A2800022BB88 /* Prices */ = {
+			isa = PBXGroup;
+			children = (
+				ADEA2DBF18F4A2AB0022BB88 /* PricesTableViewController.h */,
+				ADEA2DC018F4A2AB0022BB88 /* PricesTableViewController.m */,
+			);
+			name = Prices;
+			sourceTree = "<group>";
+		};
+		ADEA2DC218F4AE680022BB88 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				ADEA2DC318F4AE970022BB88 /* DataFetcher.h */,
+				ADEA2DC418F4AE970022BB88 /* DataFetcher.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		ADEA2DCA18F4C2770022BB88 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				ADEA2DC818F4BF7E0022BB88 /* GBS_Logo_ Wide_Banner_HighRes.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD6CB0D4188AE73C00356AA4 /* Grogan Burner Services */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD6CB107188AE73D00356AA4 /* Build configuration list for PBXNativeTarget "Grogan Burner Services" */;
+			buildPhases = (
+				AD6CB0D1188AE73C00356AA4 /* Sources */,
+				AD6CB0D2188AE73C00356AA4 /* Frameworks */,
+				AD6CB0D3188AE73C00356AA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Grogan Burner Services";
+			productName = "Grogan Burner Services";
+			productReference = AD6CB0D5188AE73C00356AA4 /* Grogan Burner Services.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD6CB0F5188AE73D00356AA4 /* Grogan Burner ServicesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD6CB10A188AE73D00356AA4 /* Build configuration list for PBXNativeTarget "Grogan Burner ServicesTests" */;
+			buildPhases = (
+				AD6CB0F2188AE73D00356AA4 /* Sources */,
+				AD6CB0F3188AE73D00356AA4 /* Frameworks */,
+				AD6CB0F4188AE73D00356AA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD6CB0FC188AE73D00356AA4 /* PBXTargetDependency */,
+			);
+			name = "Grogan Burner ServicesTests";
+			productName = "Grogan Burner ServicesTests";
+			productReference = AD6CB0F6188AE73D00356AA4 /* Grogan Burner ServicesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD6CB0CD188AE73C00356AA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Grogan Burner Services";
+				TargetAttributes = {
+					AD6CB0D4188AE73C00356AA4 = {
+						DevelopmentTeam = QJJ8RUJ7UW;
+					};
+					AD6CB0F5188AE73D00356AA4 = {
+						TestTargetID = AD6CB0D4188AE73C00356AA4;
+					};
+				};
+			};
+			buildConfigurationList = AD6CB0D0188AE73C00356AA4 /* Build configuration list for PBXProject "Grogan Burner Services" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD6CB0CC188AE73C00356AA4;
+			productRefGroup = AD6CB0D6188AE73C00356AA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD6CB0D4188AE73C00356AA4 /* Grogan Burner Services */,
+				AD6CB0F5188AE73D00356AA4 /* Grogan Burner ServicesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD6CB0D3188AE73C00356AA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADEA2DAA18F341130022BB88 /* ucd.gpx in Resources */,
+				ADEA2DC918F4BF7E0022BB88 /* GBS_Logo_ Wide_Banner_HighRes.jpg in Resources */,
+				AD6CB19D188AFD2400356AA4 /* Main.storyboard in Resources */,
+				AD6CB0F1188AE73D00356AA4 /* Images.xcassets in Resources */,
+				AD6CB0E3188AE73D00356AA4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD6CB0F4188AE73D00356AA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD6CB102188AE73D00356AA4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD6CB0D1188AE73C00356AA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADEA2DA218F1F35F0022BB88 /* MyInfoViewController.m in Sources */,
+				AD6CB152188AF5D400356AA4 /* ECSlidingSegue.m in Sources */,
+				AD3DAE051903027500C8F1E9 /* ReminderDetailViewController.m in Sources */,
+				ADEA2DA818F32AB70022BB88 /* FixedAnnotation.m in Sources */,
+				ADEA2DC118F4A2AB0022BB88 /* PricesTableViewController.m in Sources */,
+				ADEA2D9518F1F1200022BB88 /* JBLineChartView.m in Sources */,
+				ADEA2D9318F1F1200022BB88 /* JBChartView.m in Sources */,
+				AD626E56190A6A9F0042998B /* FXForms.m in Sources */,
+				ADDEB2EB1903355E00E1D40E /* ContactForm.m in Sources */,
+				AD3DADFA1901534100C8F1E9 /* ContactUsViewController.m in Sources */,
+				ADEA2D9F18F1F2570022BB88 /* Grogan Burner Services.xcdatamodeld in Sources */,
+				AD3DADE618F73AB600C8F1E9 /* RemindersListViewController.m in Sources */,
+				AD3DAE02190181DA00C8F1E9 /* MainViewController.m in Sources */,
+				AD6CB153188AF5D400356AA4 /* ECSlidingViewController.m in Sources */,
+				ADEA2DBA18F49AB80022BB88 /* SVPulsingAnnotationView.m in Sources */,
+				AD6CB151188AF5D400356AA4 /* ECSlidingInteractiveTransition.m in Sources */,
+				AD3DADE918F73C2900C8F1E9 /* AddReminderViewController.m in Sources */,
+				AD6CB19B188AFD0A00356AA4 /* MEMenuViewController.m in Sources */,
+				ADEA2DBC18F49E3A0022BB88 /* LiveAnnotation.m in Sources */,
+				AD0FC0161904453B00F4295C /* Customer.m in Sources */,
+				ADEA2D9218F1F1200022BB88 /* JBBarChartView.m in Sources */,
+				AD6CB0E9188AE73D00356AA4 /* AppDelegate.m in Sources */,
+				AD6CB0E5188AE73D00356AA4 /* main.m in Sources */,
+				AD6CB14F188AF5D400356AA4 /* ECPercentDrivenInteractiveTransition.m in Sources */,
+				AD6CB154188AF5D400356AA4 /* UIViewController+ECSlidingViewController.m in Sources */,
+				AD6CB150188AF5D400356AA4 /* ECSlidingAnimationController.m in Sources */,
+				ADEA2DC518F4AE970022BB88 /* DataFetcher.m in Sources */,
+				ADEA2DA518F1F3CD0022BB88 /* MyServicesViewController.m in Sources */,
+				AD3DADEC18F73D8E00C8F1E9 /* AddReminderForm.m in Sources */,
+				ADEA2D8618EA2D330022BB88 /* MapVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD6CB0F2188AE73D00356AA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD6CB104188AE73D00356AA4 /* Grogan_Burner_ServicesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD6CB0FC188AE73D00356AA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD6CB0D4188AE73C00356AA4 /* Grogan Burner Services */;
+			targetProxy = AD6CB0FB188AE73D00356AA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD6CB0E1188AE73D00356AA4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD6CB0E2188AE73D00356AA4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AD6CB100188AE73D00356AA4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD6CB101188AE73D00356AA4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD6CB105188AE73D00356AA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AD6CB106188AE73D00356AA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD6CB108188AE73D00356AA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Grogan Burner Services/Grogan Burner Services-Prefix.pch";
+				INFOPLIST_FILE = "Grogan Burner Services/Grogan Burner Services-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AD6CB109188AE73D00356AA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Grogan Burner Services/Grogan Burner Services-Prefix.pch";
+				INFOPLIST_FILE = "Grogan Burner Services/Grogan Burner Services-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AD6CB10B188AE73D00356AA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Grogan Burner Services.app/Grogan Burner Services";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Grogan Burner Services/Grogan Burner Services-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Grogan Burner ServicesTests/Grogan Burner ServicesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		AD6CB10C188AE73D00356AA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Grogan Burner Services.app/Grogan Burner Services";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Grogan Burner Services/Grogan Burner Services-Prefix.pch";
+				INFOPLIST_FILE = "Grogan Burner ServicesTests/Grogan Burner ServicesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD6CB0D0188AE73C00356AA4 /* Build configuration list for PBXProject "Grogan Burner Services" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD6CB105188AE73D00356AA4 /* Debug */,
+				AD6CB106188AE73D00356AA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD6CB107188AE73D00356AA4 /* Build configuration list for PBXNativeTarget "Grogan Burner Services" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD6CB108188AE73D00356AA4 /* Debug */,
+				AD6CB109188AE73D00356AA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD6CB10A188AE73D00356AA4 /* Build configuration list for PBXNativeTarget "Grogan Burner ServicesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD6CB10B188AE73D00356AA4 /* Debug */,
+				AD6CB10C188AE73D00356AA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ADEA2D9D18F1F2570022BB88 /* Grogan Burner Services.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ADEA2D9E18F1F2570022BB88 /* Grogan Burner Services.xcdatamodel */,
+			);
+			currentVersion = ADEA2D9E18F1F2570022BB88 /* Grogan Burner Services.xcdatamodel */;
+			name = "Grogan Burner Services.xcdatamodeld";
+			path = "../Grogan Burner Services.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AD6CB0CD188AE73C00356AA4 /* Project object */;
+}
