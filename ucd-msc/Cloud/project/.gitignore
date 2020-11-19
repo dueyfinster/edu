@@ -1,0 +1,24 @@
+# config file with private api keys!
+awsconfig.json
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Project Docs for Submission
+*.docx
+*.doc
+*.pdf
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/

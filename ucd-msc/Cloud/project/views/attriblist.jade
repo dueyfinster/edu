@@ -1,0 +1,61 @@
+// copyright Neil Grogan
+extends layout
+block content
+			script(src='/javascripts/attributes.js')
+			mixin alerts(message)
+				br
+				br
+				div(class!=attributes.class)
+					button(type="button" class="close" data-dismiss="alert" aria-hidden="true")	&times;
+					strong= message
+			h1.
+				AWS SimpleDB
+			a(class="btn btn-primary", href="/")	Go back to Domain List
+			br
+			br
+			input(id="searchInput" value="Type To Filter")
+			table(class="table table-striped")
+				thead
+					tr
+						th.
+							Domain Name
+						th.
+							Item
+						th.
+							Attribute Name
+						th.
+							Attribute Value
+						th.
+							Update
+						th.
+							Delete
+				tbody(id="fbody")
+					if (typeof attriblist != "undefined")
+						+alerts('Attributes loaded successfully')(class="alert alert-success alert-dismissable")
+						each attrib in attriblist
+							tr(class="arow")
+								td(class="domain")	#{domain}
+								td(class="item")	#{item}
+								td(class="attribname")	#{attrib.Name}
+								td(class="attribvalue")	#{attrib.Value}
+								td
+									button(type="button" class="btn btn-default updateattribs" data-toggle="modal" data-target="#myModal")	Update
+								td
+									button(type="button" class="btn btn-danger deleteattrib" data-toggle="modal" data-target="#myModal")	Delete Attribute
+					else if (typeof searchlist != "undefined")
+						+alerts('Attributes loaded successfully')(class="alert alert-success alert-dismissable")
+						each item in searchlist
+							each attribute in item.Attributes
+								tr(class="arow")
+									td(class="domain")	#{domain}
+									td(class="item")	#{item.Name}
+									td(class="attribname")	#{attribute.Name}
+									td(class="attribvalue")	#{attribute.Value}
+									td
+										button(type="button" class="btn btn-default updateattribs" data-toggle="modal" data-target="#myModal")	Update
+									td
+										button(type="button" class="btn btn-danger deleteattrib" data-toggle="modal" data-target="#myModal")	Delete Attribute
+					else
+						+alerts('No Attributes Defined')(class="alert alert-warning alert-dismissable")
+
+			include modal

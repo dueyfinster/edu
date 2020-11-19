@@ -1,0 +1,42 @@
+// copyright Neil Grogan
+extends layout
+block content
+			script(src='/javascripts/domains.js')
+			mixin alerts(message)
+				br
+				br
+				div(class!=attributes.class)
+					button(type="button" class="close" data-dismiss="alert" aria-hidden="true")	&times;
+					strong= message
+			h1.
+				AWS SimpleDB
+			button(type="button" class="btn btn-primary create" data-toggle="modal" data-target="#myModal")	Create a Domain
+			br
+			br
+			input(id="searchInput" value="Type To Filter")
+			table(class="table table-striped")
+				thead
+					tr
+						th.
+							Domain Name
+						th.
+							Items and Attributes
+						th.
+							Delete Domain
+				tbody(id="fbody")
+					if (typeof domainlist != "undefined")
+						+alerts('Domains loaded successfully')(class="alert alert-success alert-dismissable")
+						each domain in domainlist
+							tr(class="arow")
+								td(class="domain")	#{domain}
+								td
+									div(class="btn-group")
+										button(type="button" class="btn btn-default createattribs" data-toggle="modal" data-target="#myModal")	Create
+										button(type="button" class="btn btn-default getattribs" data-toggle="modal" data-target="#myModal")	Retrieve
+										button(type="button" class="btn btn-default searchattribs" data-toggle="modal" data-target="#myModal")	Query
+										
+								td
+									button(type="button" class="btn btn-danger delete" data-toggle="modal" data-target="#myModal")	Delete Domain
+					else
+						+alerts('No Domains Defined')(class="alert alert-warning alert-dismissable")
+			include modal
