@@ -1,0 +1,44 @@
+- Demo of Newsfast
+    - Landing Page and Sign in
+        - Show Landing Page
+            - Dwell on Design
+            - State intro for user
+            - Welcome on boarding for users
+        - Show Sign in
+            - Big clear button
+            - Option to skip?
+    - Home Page
+        - Show Topics being picked
+            - Show news area
+            - Mention technology behind (Celery)
+        - Show Advertising Section(s)
+            - Not just banner adverts
+            - Trying to do Ads that fit and unobtrusive
+        - Show Latest News
+            - Mention process behind
+            - Feeds training set
+    - Admin Area
+        - Show RSS Feeds (mention rank)
+            - RSS Feeds processed every 10 minutes
+            - Approximately 50 feeds
+        - Show Articles (mention rank)
+            - Each Article processed for key words
+        - Show User Articles
+            - Tied to user uniquely
+            - Just for them
+            - Exactly what they said they liked
+        - Training Set
+            - User will train system based on clicks
+            - Based on Nearest Neighbour (KNN)
+            - Some articles we recommend appear in feed (not keyword
+              related)
+            - Builds user preferences up, getting better all the time
+        - Mention other factors
+            - Synonyms
+            - Bad words
+            - Any other processing is easily possible
+        - Celery logs? Show worker in action?
+    - Deployment
+        - Easy with docker
+        - CI kept code quality high
+        - Selenium and Unit tested

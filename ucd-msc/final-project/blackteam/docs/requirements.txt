@@ -1,0 +1,7 @@
+nltk
+feedparser
+beautifulsoup4
+tweepy
+praw
+httplib2==0.9
+python-oauth2

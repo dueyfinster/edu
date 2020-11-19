@@ -1,0 +1,22 @@
+Minutes
+we want to aim for business paper to be ‘finished’ end of next week
+start on demo paper - talk to Kevin about how it should be done - lots of volunteers up for doing it
+Garry up for doing demo paper but currently needs to focus on UI so probably doesn’t make sense right now
+Garry will post by Tuesday with screenshots of preferences
+Igor finishing user click - will be done today Sunday
+LOS to tidy up some BE stuff for tomorrow - including adding get related tweets
+UI - this Tuesday User Preferences popup to be done
+UI - move on to home page for following Tuesday
+User click - what the user sees when he clicks on Article - should see related tweets
+Explanation from Igor on what we could show when click on Article
+Suggestion that Garry get help from Igor if needed
+Showing Article with tweets should be finished Friday week
+Thinking that Kevin will finish Business Paper next week, suggestion by Neil to start Demo paper, LOS to review both, to discuss with Kevin
+Goals this week - Garry on UI, Igor finishing click stuff, get both papers in hand and start User testing
+
+Retrospective:
+Garry: we need to support each other more and be aware of other people’s commitments
+LOS: like the whole CI process, to improve - if people could give more time, more comm on slack, happy with the group, up and down about the project
+Igor: lack of debugging poor, otherwise good, up and down as well
+Neil: 30 credit module, people need to manage time around that, difficult to sync up, people should give feedback on each other’s work
+

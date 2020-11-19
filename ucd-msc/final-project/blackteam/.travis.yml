@@ -1,0 +1,34 @@
+language: python
+python:
+- '3.4'
+services:
+- redis-server
+install:
+- pip install -r web/requirements.txt
+before_script:
+- export $(cat .env | xargs)
+- "export DISPLAY=:99.0"
+- "sh -e /etc/init.d/xvfb start"
+# Workaround for Selenium #3280 issue
+- "wget http://selenium-release.storage.googleapis.com/2.44/selenium-server-standalone-2.44.0.jar"
+- java -jar selenium-server-standalone-2.44.0.jar > /tmp/selenium.log 2> /tmp/selenium.error &
+- cd web
+- python manage.py migrate
+script:
+- sleep 5
+- coverage run --source=docker_django manage.py test -v 0
+- cat /tmp/selenium.log
+- cat /tmp/selenium.error
+after_success:
+- coveralls
+#- ssh ucd "cd blackteam && git fetch && git reset --hard origin/master && ./run-docker.sh"
+notifications:
+  slack: ucdproj:vZbEQgmLZq8yk4RySjagRI28
+addons:
+#  artifacts:
+#    debug: true
+#    paths:
+#      - /tmp/website.png
+  hosts:
+    - redis
+    - postgres

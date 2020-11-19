@@ -1,0 +1,55 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>News Fast</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" type="text/css">
+</head>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#"><span class="fa fa-newspaper-o"></span> News Fast</a>
+{#            <a class="navbar-brand">News Fast</a>#}
+        </div>
+        <form class="navbar-form navbar-right">
+            <p class="navbar-text navbar-right">{% block nav %}{% endblock %}</p>
+        </form>
+
+    </div>
+    <!--/.navbar-collapse -->
+    </div>
+</nav>
+
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<div class="jumbotron">
+    <div class="container">
+        <br>
+        <br>
+
+        <p>Newsfast is a new Technology News site which will collect Technology News stories from multiple sources,
+            personalize the news for the user, and show twitter reaction to the news, both historical tweets and
+            streaming tweets will be shown with the article.The basic (not personalized) web site collects news
+            from many sources, and order of the news is based on what is the latest with input from twitter.Please
+            <a href="mailto:ucdproj.feedback@getfranke.com?Subject=News%20Fast%20Feedback" target="_top">email</a> us
+            your feedback.</p>
+    </div>
+</div>
+
+<body>
+<div class="container-fluid">
+    {% block content %}
+    {% endblock %}
+</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="{% static 'js/jsUtility.js' %}"></script>
+</body>
+
+<footer>
+    <small>Version: {{ version }}</small>
+</footer>
+</html>

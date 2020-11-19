@@ -1,0 +1,40 @@
+machine:
+  python:
+    version: 3.4.2
+  #services:
+    #- docker
+  # Override /etc/hosts
+  hosts:
+    redis: 127.0.0.1
+    postgres: 127.0.0.1
+
+dependencies:
+  override:
+    - pip install -r web/requirements.txt
+    #- curl -L https://github.com/docker/compose/releases/download/1.2.0/docker-compose-`uname -s`-`uname -m` > docker-compose
+    #- chmod +x docker-compose
+    #- sudo mv docker-compose /usr/local/bin/
+  post:
+    - wget http://selenium-release.storage.googleapis.com/2.44/selenium-server-standalone-2.44.0.jar
+    - java -jar selenium-server-standalone-2.44.0.jar:
+        background: true
+    - sleep 5
+test:
+  override:
+    - cd web && coverage run --source=docker_django manage.py test
+    - cd web && coverage html -d $CIRCLE_ARTIFACTS
+    - mkdir $CIRCLE_ARTIFACTS/screenshots
+    - mv /tmp/*.png $CIRCLE_ARTIFACTS/screenshots 2>&1 >/dev/null
+    #- sudo service redis-server stop
+    #- sudo service postgresql stop 
+    #- docker-compose build
+    #- docker-compose up
+deployment:
+  production:
+    branch: master
+    commands:
+      - ./scripts/deploy_production.sh
+  staging:
+    branch: develop
+    commands:
+      - ./scripts/deploy_staging.sh

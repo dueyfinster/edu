@@ -1,0 +1,35 @@
+{% extends "_base.html" %}
+  {% load staticfiles %}
+
+{% block nav %}
+    {% if twitter_screen_name|length == 0 %}
+        <a href="{% url 'login' %}"><img src="{% static "images/sign-in-with-twitter-gray.png" %}" alt="My image"/></a>
+    {% else %}Signed in as {{ twitter_screen_name }}
+    {% endif %}
+{% endblock nav %}
+
+{% block content %}<br/>
+  {% for entry in feeds%}
+    <div class="row">
+
+        <div class="col-md-8 col-md-offset-1">
+
+          <div class="text-content short-text">
+
+            <h3><strong> {{ entry.title }}</strong></h3>
+            {% autoescape off%}{{ entry.summary }}{% endautoescape %}<br/>
+            <a href="{{ entry.link }}">{{ entry.link }}</a><br/>
+              {{ entry.date_published }}
+
+          </div>
+
+          <div class="show-more">
+            <a href="#">Show more</a>
+          </div>
+        </div>
+        <br/><br/>
+    </div>
+     <br/>
+  {% endfor %}
+
+{% endblock content %}

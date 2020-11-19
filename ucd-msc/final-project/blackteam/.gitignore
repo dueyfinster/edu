@@ -1,0 +1,12 @@
+*.db
+.DS_Store
+.idea
+web/base/requirements.txt
+*.pyc
+.keys.tar
+.keys/
+.ropeproject
+.coverage
+venv
+env
+__pycache__

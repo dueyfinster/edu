@@ -1,0 +1,22 @@
+.col-md-8{
+    border:0.1em solid #E1E1E2;
+}
+
+.short-text {
+    overflow: hidden;
+    height: 18em;
+}
+
+.full-text{
+    height: auto;
+}
+.show-more {
+    padding: 10px 0;
+    text-align: center;
+}
+footer{
+    font-size: small;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
