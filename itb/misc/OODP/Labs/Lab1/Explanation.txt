@@ -1,0 +1,7 @@
+If I was using the factory pattern to help someone design additions to their house, 
+I would have them input a list of colours and give them colours that match back.
+
+In Java it would be a string list:
+String colours = "blue orange mango";
+which would then be tokenised and matched to output colours by factory:
+You should choose: Purple, Red and Cyan.

@@ -1,0 +1,57 @@
+class HuffmanSymbol{
+	private int tree;
+	private String	symbol;
+	//get and set methods
+	
+	public HuffmanSymbol(int i, String s){	
+		freq	=	f;
+		symbol	=	s;
+}
+
+
+class HuffmanTree{
+	BinaryTree	hufftree;
+	public HuffmanTree{
+		hufftree	=	new	BinaryTree();	
+	}	
+	
+	hufftree.setRootITem(new HuffmanSymbol(102. "*"));
+		hufftree.attachleft(new HuffmanSymbol(45,"F"));
+}
+
+
+BinaryTree	thirtytwoStar = new BinaryTree(new HuffmanSymbol(35, "*"),new BinaryTree(new HuffmanSymbol(15, "10"),new BinaryTree(newHuffmanSymbol(35, "*"));
+
+twentytwostar.attachRightSubTree(TwelveStar);
+
+
+Read textfile into ADT list
+/*Loop while size of ADT list > 1 { */
+BinaryTree	rightChild	=	freqTable.remove(1);
+BinaryTree	leftChild	=	freqTable.remove(2);
+
+BinaryTree	parent	= new BinaryTree(new HuffmanSymbol(leftChild.getRootItem().getFreq() + rightChild.getRootItem().getRootItem.getFreq(), "*");
+freqTable.add(? /* find right location for parent */ ,parent);
+/*Loop } */
+
+Left = 0
+Right = 1;
+
+Say B = 1011 means right, left, right, right on tree.
+
+public void inorder(BTree){
+	if (BinaryTreeRoot!=symbol) // star in example
+	if(BinaryTree.getleft()!=null);{
+		append 0 to BitString
+		inorder(new BinaryTree(BTree.getLeft());
+		
+	} //not Java, psuedocode	
+	
+	if(BinaryTree.getRight()!=null);{
+		append 1 to BitString
+		inorder(new BinaryTree(BTree.getRight());
+		
+	} //not Java, psuedocode
+	
+//REMOVE most recently added bit	
+}

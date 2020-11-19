@@ -1,0 +1,5 @@
+Steps to Add Japanese Address':
+1. Create a Japanese.java file which extends the Address Factory
+2. In Japanese class, there will be Jlabels/JTextfields with the proper address fields (in createAddress method) 
+and the proper PhoneNo fields (in createAddress method).
+3. Add a Japanese Button to the main GUI, and adjust so actionListener will return correct panel from Japanese class.
