@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tasc 2</string>
+    <string name="action_settings">Socrú</string>
+    <string name="apple">Úll</string>
+    <string name="banana">Banana</string>
+    <string name="lemon">Líomóid</string>
+    <string name="orange">Oráiste</string>
+    <string name="pear">Piorra</string>
+</resources>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android">
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:id="@+id/view_course"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+        <!-- From -->
+        <TextView android:id="@+id/from_show_label"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dip"
+            android:textStyle="bold"
+            android:text="@string/from"
+            android:paddingTop="10dip"
+            android:paddingBottom="10dip"
+            android:textColor="#43bd00"/>
+        <TextView android:id="@+id/from_show_field"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+        <!-- from -->
+
+        <!-- to -->
+        <TextView android:id="@+id/to_show_label"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dip"
+            android:textStyle="bold"
+            android:text="@string/to"
+            android:paddingTop="10dip"
+            android:paddingBottom="10dip"
+            android:textColor="#43bd00"/>
+        <TextView android:id="@+id/to_show_field"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+        <!-- to -->
+
+        <!-- cc -->
+        <TextView android:id="@+id/cc_show_label"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dip"
+            android:textStyle="bold"
+            android:text="@string/cc"
+            android:paddingTop="10dip"
+            android:paddingBottom="10dip"
+            android:textColor="#43bd00"/>
+        <TextView android:id="@+id/cc_show_field"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+        <!-- cc -->
+
+        <!-- subject -->
+        <TextView android:id="@+id/subject_show_label"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dip"
+            android:textStyle="bold"
+            android:text="@string/subject"
+            android:paddingTop="10dip"
+            android:paddingBottom="10dip"
+            android:textColor="#43bd00"/>
+        <TextView android:id="@+id/subject_show_field"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+        <!-- subject -->
+
+        <!-- message -->
+        <TextView android:id="@+id/message_show_label"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dip"
+            android:textStyle="bold"
+            android:text="@string/message"
+            android:paddingTop="10dip"
+            android:paddingBottom="10dip"
+            android:textColor="#43bd00"/>
+        <TextView android:id="@+id/message_show_field"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/back"
+            android:id="@+id/back_button" />
+        <!-- message -->
+
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="from">From:</string>
+    <string name="to">To:</string>
+    <string name="cc">CC:</string>
+    <string name="bcc">BCC:</string>
+    <string name="subject">Subject:</string>
+    <string name="message">Message:</string>
+    <string name="app_name">Assignment1</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="clear">Clear</string>
+    <string name="send">Send</string>
+    <string name="back">Back</string>
+
+
+</resources>

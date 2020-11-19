@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Feedback Form</string>
+    <string name="name">Your Name</string>
+    <string name="email">Your E-Mail Address</string>
+    <string name="feedback">Your Feedback</string>
+    <string name="clear">Clear</string>
+    <string name="send">Send</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

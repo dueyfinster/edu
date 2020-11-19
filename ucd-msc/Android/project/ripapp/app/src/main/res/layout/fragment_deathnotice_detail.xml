@@ -1,0 +1,102 @@
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/date_death_title"
+            android:id="@+id/dateDeathTitle"
+            android:textStyle="bold"
+            android:layout_marginRight="1dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/dateDeathTitle"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/dateDeath" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_to_calendar"
+            android:layout_below="@+id/dateDeathTitle"
+            android:id="@+id/addDateDeathToCalButton" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/addDateDeathToCalButton"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/date_posted_title"
+            android:id="@+id/datePostedTitle"
+            android:textStyle="bold"
+            android:layout_marginRight="1dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/addDateDeathToCalButton"
+            android:layout_toRightOf="@+id/datePostedTitle"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/datePosted" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/datePostedTitle"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/address_title"
+            android:id="@+id/addressTitle"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/addressTitle"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/address" />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/view_on_map"
+            android:layout_below="@+id/address"
+            android:id="@+id/viewNoticeOnMapButton" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/viewNoticeOnMapButton"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/notice_title"
+            android:id="@+id/noticeTitle"
+            android:textStyle="bold" />
+
+        <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/deathnotice_detail"
+            style="?android:attr/textAppearanceLarge" android:layout_width="match_parent"
+            android:layout_below="@id/noticeTitle"
+            android:layout_height="match_parent" android:padding="16dp" android:textIsSelectable="false"
+            tools:context="ie.ucd.cs.neilgrogan13204052.deathnotices.notices.DeathNoticeDetailFragment" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/share_notice"
+            android:layout_below="@+id/deathnotice_detail"
+            android:id="@+id/shareNoticeButton" />
+
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,53 @@
+{
+"courses": [
+{
+"course_code": "COMP30500",
+"course_name": "Java-based Data Structures",
+"credits" : 10,
+"description": "Learn how to program efficient algorithms in Java"
+},
+{
+"course_code": "COMP41490",
+"course_name": "Java Technologies",
+"credits" : 5,
+"description": "Learn Basic Java"
+},
+{
+"course_code": "COMP41610",
+"course_name": "Cloud Computing",
+"credits" : 7.5,
+"description": "Develop using AWS, Pig and Hive to deploy large scale web apps"
+},
+{
+"course_code": "COMP41550",
+"course_name": "Mobile Application Development Using Cocoa Touch",
+"credits" : 10,
+"description": "Learn iOS and Cocoa Touch, with Objective C development"
+},
+{
+"course_code": "COMP40730",
+"course_name": "High Performance Computing",
+"credits" : 10,
+"description": "Develop C programs to efficently do matrix normalisation"
+},
+{
+"course_code": "COMP41600",
+"course_name": "Professional Java Programming (Part 1)",
+"credits" : 5,
+"description": "SCJP Part 1 Exam"
+},
+{
+"course_code": "COMP41620",
+"course_name": "Professional Java Programming (Part 2)",
+"credits" : 5,
+"description": "SCJP Part 2 Exam"
+},
+{
+"course_code": "COMP 30510",
+"course_name": "COMP 30510 Mobile Application Development",
+"credits" : 10,
+"description": "Develop Android applications! The best module..."
+}
+]
+}
+

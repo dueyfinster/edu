@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Death Notices</string>
+
+    <string name="title_section1">Search Death Notices</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_deathnotice_list">Death Notices</string>
+    <string name="title_deathnotice_detail">DeathNotice Detail</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_search">Search Notices</string>
+    <string name="title_activity_death_notices">Death Notices</string>
+    <string name="title_activity_search_specific">Search Notices</string>
+
+
+    <string name="show_notices">Show Notices</string>
+    <string name="search_notices">Search Notices</string>
+    <string name="search_by_name">Search by\n Name</string>
+    <string name="search_by_address">Search by\n Address</string>
+    <string name="no_results">Sorry, no results!</string>
+    <string name="ok">OK</string>
+    <string name="search_text">Search</string>
+    <string name="search_clear">Clear</string>
+    <string name="view_map">Show on Map</string>
+
+
+    <string name="enter_address">Enter Address:</string>
+    <string name="enter_name">Enter Name:</string>
+
+
+    <string name="date_posted_title">Date Posted:</string>
+    <string name="date_death_title">Date Death:</string>
+    <string name="address_title">Address:</string>
+    <string name="notice_title">Notice:</string>
+    <string name="view_on_map">View on Map</string>
+    <string name="add_to_calendar">Add to Calendar</string>
+    <string name="share_notice">Share Death Notice</string>
+
+    <string name="death_of">Death of</string>
+</resources>
