@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="X:/GData Library/gdata-appsforyourdomain-1.0.jar"/>
+	<classpathentry kind="lib" path="X:/GData Library/gdata-appsforyourdomain-meta-1.0.jar"/>
+	<classpathentry kind="lib" path="X:/GData Library/gdata-base-1.0.jar"/>
+	<classpathentry kind="lib" path="X:/GData Library/gdata-client-1.0.jar"/>
+	<classpathentry kind="lib" path="X:/GData Library/gdata-client-meta-1.0.jar"/>
+	<classpathentry kind="lib" path="X:/GData Library/gdata-core-1.0.jar"/>
+	<classpathentry kind="lib" path="X:/GData Library/gdata-media-1.0.jar"/>
+	<classpathentry kind="lib" path="X:/GData Library/gdata-youtube-2.0.jar"/>
+	<classpathentry kind="lib" path="X:/GData Library/gdata-youtube-meta-2.0.jar"/>
+	<classpathentry kind="lib" path="X:/GData Library/mailapi.jar"/>
+	<classpathentry kind="lib" path="libraries/JDIC/Browser.jar"/>
+	<classpathentry kind="lib" path="libraries/JDIC/jdic.jar"/>
+	<classpathentry kind="lib" path="libraries/JDIC/lib/jdic_native_applet.jar"/>
+	<classpathentry kind="lib" path="libraries/JDIC/lib/jdic_stub_unix.jar"/>
+	<classpathentry kind="lib" path="libraries/JDIC/lib/jdic_stub_windows.jar"/>
+	<classpathentry kind="lib" path="libraries/JDIC/lib/jdic.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
